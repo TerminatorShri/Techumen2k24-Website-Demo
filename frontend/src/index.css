@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rowdy-font {
+  font-family: "Rowdies", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nunito-font {
+  font-family: "Nunito", system-ui;
+}
+
+.fredoka-font {
+  font-family: "Fredoka", sans-serif;
+}
+
+.playwrite-de-grund-font {
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.acme-font {
+  font-family: "Acme", sans-serif;
+}
+
+.tajawal-font {
+  font-family: "Tajawal", sans-serif;
+}
+
+/* button.register {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button.register:focus,
+button.register:hover {
+  color: #fff;
+}
+
+button.register:focus:after,
+button.register:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button.register:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+} */
+
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #132D5E; 
+  border-radius: 10px;
+}
+
+/* Scrollbar Track */
+*::-webkit-scrollbar-track {
+  background-color: #0D2240; 
+  border-radius: 10px; 
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4E9EFF; 
+  border-radius: 10px; 
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #3390FF; 
+}
